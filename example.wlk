@@ -36,7 +36,7 @@ object mapa {}
 object botellaDeGrogXD {}
 
 class BusquedaDelTesoro inherits Mision {
-  method esUtil(unPirata) = 
+  method esUtil(unPirata) = unPirata.dinero() <= 5 and
   unPirata.inventario().contains(brujula) or
   unPirata.inventario().contains(mapa) or
   unPirata.inventario().contains(botellaDeGrogXD) 
