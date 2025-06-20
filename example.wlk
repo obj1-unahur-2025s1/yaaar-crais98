@@ -61,3 +61,10 @@ class Saqueo inherits Mision {
   }
 
 }
+
+object moneda{
+ var valor
+  method asignarValor(unValor){
+     valor= unValor
+  }
+}
